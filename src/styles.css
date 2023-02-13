@@ -1,24 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: sans-serif;
 }
 .input_area {
-  background-color: aqua;
+  background-color: gray;
   width: 400px;
   height: 30px;
   padding: 8px;
   margin: 8px auto;
   border-radius: 8px;
 }
-.uncomplate_area {
-  background-color: aquamarine;
+.incomplete_area {
+  background-color: lightsteelblue;
   width: 400px;
   min-height: 200px;
   padding: 8px;
   margin: 8px auto;
   border-radius: 8px;
 }
-.complate_area {
-  background-color: brown;
+.complete_area {
+  background-color: silver;
   width: 400px;
   min-height: 200px;
   padding: 8px;
@@ -52,7 +56,15 @@ button:hover {
   font-weight: bold;
   color: aliceblue;
 }
+ul {
+  padding-left: 16px;
+}
+
 li div {
   padding-bottom: 4px;
   text-decoration: none;
+}
+
+.list_row {
+  display: flex;
 }
